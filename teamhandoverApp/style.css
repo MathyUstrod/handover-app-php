@@ -1,0 +1,5 @@
+/* Required fields */
+.required{
+    color: red;
+    font-weight: 500;
+  }
