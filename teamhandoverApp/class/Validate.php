@@ -24,7 +24,8 @@ class Validate
                 }
             case "":
             default:
-                return $field;
+                //return $field;
+                return trim(htmlspecialchars($field))
         }
     }
 
